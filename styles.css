@@ -1,0 +1,152 @@
+html {
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Helvetica, sans-serif;
+    align-self: center;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+banner {
+    background-image: url(photos/florian-hahn-tHbt8-7p4eM-unsplash.jpg);
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    margin: 20px;
+}
+
+.one {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url("photos/albert-stoynov-FSKL5yhqa5k-unsplash.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.two {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url("photos/candi-foltz-l23EsqKgDts-unsplash.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.three {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url("photos/collin-armstrong-AJYSu6diJpQ-unsplash.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.four {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url("photos/mathew-schwartz-NEvS5lHyrlk-unsplash.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.five {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url("photos/natasha-miller-DFCnzrSYqpQ-unsplash.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.six {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url("photos/richard-sagredo-r0iPA862veM-unsplash.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.seven {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url("photos/robert-thiemann-Feft9mrnxV0-unsplash.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.reviews {
+    display: flex;
+   
+}
+
+.reviews h2 {
+    font-size: 1.5rem;
+    width: 25%;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    text-align: center;
+    padding: 10px 40px;
+
+}
+
+@media only screen and (max-width: 950px) {
+    html {
+        font-size: 16px;
+    }
+    
+    .reviews h2 {
+        font-size: 1rem;
+    }
+
+    .photo {
+        width: 200px;
+        height: 200px;
+    }
